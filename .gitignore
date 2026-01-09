@@ -1,0 +1,53 @@
+# =========================
+# Build & Compile Outputs
+# =========================
+build/
+bin/
+out/
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+
+# CMake / Make
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# =========================
+# Logs & Runtime Data
+# =========================
+logs/
+*.log
+
+# =========================
+# Editor / OS Stuff
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# =========================
+# Python / Emulator Stuff
+# =========================
+__pycache__/
+*.pyc
+.env
+.env.*
+
+# =========================
+# Serial / Temp Files
+# =========================
+*.tmp
+*.bak
+*.pid
+
+# =========================
+# Simulator Artifacts
+# =========================
+simulator/
+
